@@ -9,20 +9,20 @@
 * Return: a pointer to the array, or NULL if it fails
 */
 
-char *create_array(unsigned int size, char c)
+	char *create_array(unsigned int size, char c)
 {
-  char *array;
-  unsigned int n;
+	char *array;
+	unsigned int n;
 
-  if (size == 0)
-     return (NULL);
+	if (size == 0)
+	return (NULL);
 
-  array = (char *)malloc(sizeof(char) * size);
-  if (array == NULL)
-     return (NULL);
+	array = (char *)malloc(sizeof(char) * size);
+	if (array == NULL)
+	return (NULL);
 
-  for (n = 0; n < size; n++)
-     array[n] = c;
+	for (n = 0; n < size; n++)
+	array[n] = c;
 
-  return (array);
+	return (array);
 }
