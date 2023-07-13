@@ -1,4 +1,3 @@
-
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
@@ -10,6 +9,7 @@
  *
  * Return: no return.
  */
+
 void _is_zero(char *argv[])
 {
 	int i, isn1 = 1, isn2 = 1;
@@ -42,6 +42,7 @@ void _is_zero(char *argv[])
  *
  * Return: pointer of a char array.
  */
+
 char *_initialize_array(char *ar, int lar)
 {
 	int i = 0;
@@ -60,6 +61,7 @@ char *_initialize_array(char *ar, int lar)
  *
  * Return: length of the number.
  */
+
 int _checknum(char *argv[], int n)
 {
 	int ln;
@@ -102,6 +104,7 @@ int is_digit(char *s)
  *
  * Return: the length of the string
  */
+
 int _strlen(char *s)
 {
 	int i = 0;
@@ -116,6 +119,7 @@ int _strlen(char *s)
 /**
  * errors - handles errors for main
  */
+
 void errors(void)
 {
 	printf("Error\n");
@@ -129,6 +133,7 @@ void errors(void)
  *
  * Return: always 0 (Success)
  */
+
 int main(int argc, char *argv[])
 {
 	char *s1, *s2;
