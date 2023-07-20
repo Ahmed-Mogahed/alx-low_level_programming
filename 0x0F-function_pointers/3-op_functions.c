@@ -8,14 +8,14 @@
 
 	/**
 	 * op_add - Returns the sum of two numbers.
-	 * @i: The first number.
-	 * @j: The second number.
+	 * @a: The first number.
+	 * @b: The second number.
 	 * Return: The sum of a and b.
 	 */
 
-	int op_add(int i, int j)
+	int op_add(int a, int b)
 	{
-		return (i + j);
+		return (a + b);
 	}
 
 	/**
