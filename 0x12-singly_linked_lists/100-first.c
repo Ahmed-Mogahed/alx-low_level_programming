@@ -1,11 +1,9 @@
 #include <stdio.h>
-
+void first(void) __attribute__ ((constructor));
 /**
  * first - prints a sentence before the main
  * function executeble
  */
-
-void first(void) __attribute__ ((constructor));
 
 void first(void)
 
