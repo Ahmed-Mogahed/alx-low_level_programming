@@ -4,14 +4,14 @@
 /**
  * read_textfile- Read text file print to STDOUT.
  * @fn: text file being read
- * @lett: number of letters to read
+ * @lett: number of lett to read
  * Return: w- actual number of bytes read and printed
- * 0 when function fails or filename is NULL.
+ *         0 when function fails or filename is NULL.
  */
 
 ssize_t read_textfile(const char *fn, size_t lett)
 {
-	char *b;
+	char *bu;
 	ssize_t f;
 	ssize_t n;
 	ssize_t u;
